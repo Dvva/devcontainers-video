@@ -7,7 +7,7 @@ RUN mkdir /newdir && \
 #     echo "https://mirror.tuna.tsinghua.edu.cn/alpine/v3.4/community" >> /etc/apk/repositories  && \     
 #     echo "https://mirror.tuna.tsinghua.edu.cn/alpine/edge/testing" >> /etc/apk/repositories       
 
-RUN chmod a+x ./deployment-service
+# RUN chmod a+x ./deployment-service
 
 # RUN mkdir -p /root/.ssh && \
 #     cat >> /root/.ssh/config << 'EOF'
